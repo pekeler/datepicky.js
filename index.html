@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>datepicky.js</title>
+        <style type="text/css" media="screen">
+
+.Datepicky {
+    font-family: sans-serif;
+    cursor: default;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.Datepicky .Clickable {
+    cursor: pointer;
+}
+
+.Datepicky .Clickable:hover {
+    background-color: #DDD;
+}
+
+.Datepicky table {
+    width: 500px;
+    border-collapse: collapse;
+}
+
+.Datepicky th {
+    font-size: 9px;
+    color: #888;
+}
+
+.Datepicky td {
+    font-size: 14px;
+    text-align: center;
+    height: 40px;
+    border: 1px solid #DDD;
+    width: 14.2857%;
+}
+
+.Datepicky td.Other {
+    color: #DDD;
+}
+
+.Datepicky td.Selected {
+    font-weight: bold;
+    background-color: #EEE;
+}
+
+.Datepicky table.YearMonth td {
+    font-size: 18px;
+    width: 20%;
+    text-align: center;
+    border: none;
+}
+
+.Datepicky table.YearMonth td.Other, .Datepicky table.YearMonth td.Clickable {
+    width: 15%;
+}
+
+input.InvalidDate {
+    background-color: #D33;
+}
+
+hr {
+    margin: 2em 0;
+}
+
+code {
+    background-color: #FFA;
+    margin: 0;
+    padding: 3px;
+}
+        </style>
+        <script type="text/javascript" src="datepicky.js">
+    </head>
+    <body>
+
+        <h1>datepicky.js</h1>
+        <p>datepicky.js is a standalone javascript date picker, i.e. it has no library dependencies. While supporting the only date format that matters, ISO 8601 (YYYY-MM-DD), datepicky.js' behavior can be easily customized for various use cases. It has been tested in IE6, IE7, IE8, IE9, FF5, Chrome 14, Safari 5, and Opera 11.5.</p>
+        
+        <input id="datefield1"><div id="pickerDiv1"></div>
+        <script type="text/javascript">createDatepicky("datefield1", "pickerDiv1");</script>
+
+    </body>
+</html>
