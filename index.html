@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta charset=utf-8>
         <title>datepicky.js</title>
         <style type="text/css" media="screen">
 
@@ -72,15 +73,18 @@ code {
     padding: 3px;
 }
         </style>
-        <script type="text/javascript" src="datepicky.min.js">
+        <script type="text/javascript" src="datepicky.min.js"></script>
     </head>
     <body>
 
         <h1>datepicky.js</h1>
-        <p>datepicky.js is a standalone javascript date picker, i.e. it has no library dependencies. While supporting the only date format that matters, ISO 8601 (YYYY-MM-DD), datepicky.js' behavior can be easily customized for various use cases. It has been tested in IE6, IE7, IE8, IE9, FF5, Chrome 14, Safari 5, and Opera 11.5.</p>
+        <p>datepicky.js is a standalone javascript date picker, i.e. it has no library dependencies. While supporting the only date format that matters, ISO 8601 (YYYY-MM-DD), datepicky.js behavior can be easily customized for various use cases. It has been tested in IE6, IE7, IE8, IE9, FF5, Chrome 14, Safari 5, and Opera 11.5.</p>
         
         <input id="datefield1"><div id="pickerDiv1"></div>
-        <script type="text/javascript">createDatepicky("datefield1", "pickerDiv1");</script>
+        <script type="text/javascript">
+createDatepicky("datefield1", "pickerDiv1");
+        </script>
 
+        <p><a href="demo.html">Demo</a> of all possible customizations.</p>
     </body>
 </html>
