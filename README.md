@@ -21,9 +21,11 @@ None.
 
 Use `createDatepicky()` to render the date picker and bind it to an input element of type text or date. The first parameter is the id of the input element, the second parameter is the id of a div which will contain the datepicker. The third parameter is a hash for customizations, it is optional.
 
-    createDatepicky(dateInputId, pickerDivId, {});
+```javascript
+createDatepicky(dateInputId, pickerDivId, {});
+```
 
-### Possible customizations
+### Customizations
 
 - defaultDate
 - defaultMonth
@@ -35,3 +37,5 @@ Use `createDatepicky()` to render the date picker and bind it to an input elemen
 - weekdayNames
 - monthNames
 - invalidDateClassName
+
+Take a look at the [demo](http://pekeler.github.com/datepicky.js/demo.html) to learn more about the customizations.
