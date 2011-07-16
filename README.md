@@ -15,6 +15,7 @@ None.
 - FF5
 - Chrome 14
 - Safari 5
+- Safari iOS 4.3
 - Opera 11.5
 
 ## How to use
