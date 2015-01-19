@@ -1,0 +1,12 @@
+{
+  "name": "Datepicky",
+  "version": "v0.1.0",
+  "description": "Datepicky ported to React as learning exercise",
+  "dependencies": {
+    "browserify": "*",
+    "gulp": "*",
+    "react": "*",
+	"reactify": "*",
+	"vinyl-source-stream": "*"
+  }
+}

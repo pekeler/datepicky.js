@@ -1,0 +1,7 @@
+web:
+  build: .
+  command: http-server
+  volumes:
+    - .:/datepicky.js
+  ports:
+    - "8080:8080"
